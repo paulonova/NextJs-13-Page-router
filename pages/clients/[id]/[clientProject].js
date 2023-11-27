@@ -6,7 +6,7 @@ function SelectedClientProject() {
   console.log("ROUTER: ", router.query);
   return (
     <div>
-      <h1>Selected Client Project</h1>
+      <h1>The Page for a Specific Project for a Selected Client</h1>
       <p>Router: {router.query.clientProject}</p>
     </div>
   );
