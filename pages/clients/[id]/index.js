@@ -6,7 +6,7 @@ function ClientProjectPage() {
   console.log("ROUTER ID: ", router.query);
   return (
     <div>
-      <h1>Client Project Page </h1>
+      <h1>Project of a Given Client</h1>
       <p>Router ID: {router.query.id}</p>
     </div>
   );
